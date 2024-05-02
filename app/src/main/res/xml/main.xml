@@ -1,0 +1,10 @@
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true"/>
+    <domain-config>
+        <domain includeSubdomains="true">http://192.168.29.162</domain>>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+
+</network-security-config>
